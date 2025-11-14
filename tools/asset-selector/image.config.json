@@ -91,7 +91,19 @@
         }
       ],
       "header": "Size",
-      "groupKey": "SizeGroup"
+      "groupKey": "SizeGroup",
+      "repoNames": [
+        "delivery-p142507-e1463170.adobeaemcloud.com",
+        "author-p142507-e1463170.adobeaemcloud.com/",
+        "delivery-p142507-e1463170.adobeaemcloud.com",
+        "author-p142507-e1463170.adobeaemcloud.com"
+      ],
+      "preferredDimensions": {
+        "minWidth": 500,
+        "maxWidth": 2000,
+        "minHeight": 500,
+        "maxHeight": 2000
+      }
     }
   ]
 }

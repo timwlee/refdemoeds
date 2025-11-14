@@ -89,28 +89,6 @@
         "label": "Tags",
         "valueType": "string",
         "rootPath": "/content/cq:tags/reference-demo"
-      },
-      {
-        "id": "custom-asset-one",
-        "fields": [
-          {
-            "component": "custom-asset-namespace:custom-asset",
-            "name": "image",
-            "label": "Image (DM)",
-            "configUrl": "https://main--demo-boilerplate-xwalk--lamontacrook.hlx.page/tools/assets-selector/image.config.json",
-            "valueType": "string"
-          },
-          {
-            "component": "custom-asset-namespace:custom-asset-mimetype",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "imageAlt",
-            "label": "Alt Text",
-            "valueType": "string"
-          }
-        ]
       }
     ]
   },
@@ -127,6 +105,28 @@
         "component": "text",
         "name": "imageAlt",
         "label": "Alt Text"
+      }
+    ]
+  },
+  {
+    "id": "custom-asset-one",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "name": "image",
+        "label": "Image (DM)",
+        "configUrl": "https://main--demo-boilerplate-xwalk--lamontacrook.hlx.page/tools/assets-selector/image.config.json",
+        "valueType": "string"
+      },
+      {
+        "component": "custom-asset-namespace:custom-asset-mimetype",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text",
+        "valueType": "string"
       }
     ]
   },
